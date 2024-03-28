@@ -18,6 +18,7 @@ public class WordCounter {
                     }
                 }
             }
+            // Вывод результата
             JOptionPane.showMessageDialog(null, "Количество слов в файле: " + count, "Кол-во слов в файле", JOptionPane.PLAIN_MESSAGE);
         } catch (IOException e) {
             e.printStackTrace();
