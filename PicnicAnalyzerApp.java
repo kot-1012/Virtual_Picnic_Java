@@ -4,9 +4,10 @@ public class PicnicAnalyzerApp {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             JFrame frame = new JFrame("Виртуальный пикник");
+            frame.setSize(500, 200);
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.getContentPane().add(new PicnicAnalyzerPanel());
-            frame.pack();
+            //frame.pack();
             frame.setVisible(true);
         });
     }
