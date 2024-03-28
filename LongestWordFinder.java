@@ -17,7 +17,7 @@ public class LongestWordFinder {
                     }
                 }
             }
-            JOptionPane.showMessageDialog(null, "Самое длинное слово в файле: " + longestWord);
+            JOptionPane.showMessageDialog(null, "Самое длинное слово в файле: " + longestWord, "Длинное слово", JOptionPane.PLAIN_MESSAGE);
         } catch (IOException e) {
             e.printStackTrace();
         }

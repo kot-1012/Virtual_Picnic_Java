@@ -21,7 +21,7 @@ public class WordFrequencyCalculator {
             for (Map.Entry<String, Integer> entry : wordFrequency.entrySet()) {
                 message.append(entry.getKey()).append(": ").append(entry.getValue()).append("\n");
             }
-            JOptionPane.showMessageDialog(null, message.toString());
+            JOptionPane.showMessageDialog(null, message.toString(), "Частота слов", JOptionPane.PLAIN_MESSAGE);
         } catch (IOException e) {
             e.printStackTrace();
         }
